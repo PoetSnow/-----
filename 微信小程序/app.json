@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/switchcity/switchcity",
+     "pages/user/index",
+     "pages/kuaidi/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "position": "top",
+      "backgroundColor": "#2a579a",
+      "color": "#DCEDC8",
+      "selectedColor": "#DCEDC8",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/kuaidi/index",
+          "text": "快递查询"
+        }
+
+      ]
+    }
+}

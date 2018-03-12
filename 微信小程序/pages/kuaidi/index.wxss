@@ -1,0 +1,20 @@
+/* pages/kuaidi/index.wxss */
+.input {
+ height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-left:10%;
+margin-right: 10%;
+}
+.view{
+  padding-top: 15px;
+  }
+.btn{ 
+     color: #e56012;
+    border: 1px solid #e56012;
+    width: 50%;
+    margin: 20px auto 0;
+    }

@@ -1,0 +1,15 @@
+<!--pages/kuaidi/index.wxml-->
+<view class='view' >
+  <input class='input' placeholder="输入快递单号" placeholder-style="font-size: 30rpx" value="{{LogisticCode}}" bindinput='LogisticCodeInput'></input>
+</view>
+<view class='view' >
+  <input class='input' placeholder="输入物流公司编码" placeholder-style="font-size: 30rpx" value="{{ShipperCode}}" bindinput='ShipperCodeInput'></input>
+</view>
+<view class='view' >
+<button class='btn' bindtap='click'>查询</button>
+</view>
+
+
+       <ul class="ul">
+        <li wx:for="{{ResultData}}" wx:key="*this"  data-city="{{item.time}}" data-code="{{item.ftime}}" class="li">{{item.context}}</li>
+      </ul>
